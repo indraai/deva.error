@@ -25,20 +25,42 @@ const ERROR = new Deva({
   vars,
   deva: {},
   listeners: {
+    /**************
+    func: error
+    params: packet
+    describe: global listener that grabs all broadcasted errors and calls the
+    report function.
+    ***************/
     error(packet) {
       this.func.report(packet);
     }
   },
   modules: {},
   func: {
+    /**************
+    func: report
+    params: packet
+    describe: The default system report function that outputs the errors.
+    ***************/
     report(packet) {
       return Promise.resolve(this.vars.error);
     },
   },
   methods: {
+    /**************
+    method: status
+    params: none
+    describe: Return the status of the Error Deva.
+    ***************/
     status() {
       return this.status();
     },
+
+    /**************
+    method: help
+    params: packet
+    describe: Return the Error Deva Help files.
+    ***************/
     help(packet) {
       return new Promise((resolve, reject) => {
         this.lib.help(packet.q.text, __dirname).then(help => {
