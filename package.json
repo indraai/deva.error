@@ -1,6 +1,6 @@
 {
   "name": "@feecting/errordeva",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The Deva for managing Errors.",
   "main": "index.js",
   "scripts": {
