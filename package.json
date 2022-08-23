@@ -1,5 +1,5 @@
 {
-  "name": "@indra.ai/errordeva",
+  "name": "@feecting/errordeva",
   "version": "0.0.4",
   "description": "The Deva for managing Errors.",
   "main": "index.js",
