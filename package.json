@@ -1,5 +1,5 @@
 {
-  "name": "@feecting/errordeva",
+  "name": "@indra.ai/errordeva",
   "version": "0.0.5",
   "description": "The Deva for managing Errors.",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "url": "https://github.com/indraai/ErrorDeva/issues"
   },
   "dependencies": {
-    "@feecting/deva": "^1.0.25"
+    "@indra.ai/deva": "^1.0.25"
   },
   "homepage": "https://github.com/indraai/ErrorDeva#readme"
 }
