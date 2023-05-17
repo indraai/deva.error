@@ -1,6 +1,6 @@
 {
   "name": "@indra.ai/errordeva",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "description": "The Deva for managing Errors.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/indraai/ErrorDeva/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.1.1"
+    "@indra.ai/deva": "^1.1.4"
   },
   "homepage": "https://github.com/indraai/ErrorDeva#readme"
 }
