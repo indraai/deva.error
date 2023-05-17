@@ -6,8 +6,8 @@
     "agent": {
       "id": 3065237668822,
       "key": "error",
-      "name": "ERROR",
-      "describe": "Error Deva",
+      "name": "Error Deva",
+      "describe": "The Error Deva Handles all he errors.",
       "prompt": {
         "emoji": "❌",
         "text": "error",
