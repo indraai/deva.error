@@ -47,6 +47,37 @@ const ERROR = new Deva({
     report(packet) {
       return Promise.resolve(this.vars.error);
     },
+    log(packet) {
+      const theMonth = new Date().getMonth();
+      const theYear = new Date().getFullYear();
+      const theDir = path.join(__dirname, '..', '..', 'logs', 'errors', packet.a.agent.key, theYear, theMonth);
+      const logfile = path.join(theDir, `${this.lib.getToday()}.json`);
+      const d = new Date();
+
+      return new Promise((resolve, reject) => {
+        fs.mkdir(theDir, {recursive:true}, err => {
+          if (err) return reject(err);
+          // first check for file and if it does not then write the base file for the day
+          if (! fs.existsSync(logfile)) {
+            const json = {
+              id: this.uid(),
+              date: this.lib.formatDate(d),
+              copyright: `Copyright (c) ${d.getFullYear()} Quinn Michaels, All Rights Reserved.`,
+              data: [],
+            };
+            const data = JSON.stringify(json);
+            fs.writeFileSync(logfile, data, {encoding:'utf8',flag:'w'});
+          }
+
+          // then after we check the file we are going to read the file and then add new data to the log.
+          const raw = fs.readFileSync(logfile);
+          const log = JSON.parse(raw);
+          log.data.push(packet);
+          fs.writeFileSync(logfile, JSON.stringify(log), {encoding:'utf8',flag:'w'});
+          
+        })
+      });
+    },
   },
   methods: {
     /**************

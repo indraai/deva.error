@@ -9,7 +9,7 @@
       "name": "ERROR",
       "describe": "Error Deva",
       "prompt": {
-        "emoji": "💣",
+        "emoji": "❌ ",
         "text": "error",
         "colors": {
           "label": {
