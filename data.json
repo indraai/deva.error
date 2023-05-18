@@ -6,7 +6,7 @@
     "agent": {
       "id": 3065237668822,
       "key": "error",
-      "name": "Error Deva",
+      "name": "@ErrorDeva",
       "describe": "The Error Deva Handles all he errors.",
       "prompt": {
         "emoji": "❌",
