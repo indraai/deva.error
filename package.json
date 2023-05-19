@@ -1,6 +1,6 @@
 {
   "name": "@indra.ai/errordeva",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "The Deva for managing Errors.",
   "main": "index.js",
   "scripts": {
