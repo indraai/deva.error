@@ -84,7 +84,7 @@ const ERROR = new Deva({
     describe: Return the status of the Error Deva.
     ***************/
     status() {
-      return this.status();
+      return Promise.resolve(this.status());
     },
 
     /**************
