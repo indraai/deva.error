@@ -6,8 +6,6 @@
     "agent": {
       "id": 3065237668822,
       "key": "error",
-      "name": "@ErrorDeva",
-      "describe": "The Error Deva Handles all he errors.",
       "prompt": {
         "emoji": "❌",
         "text": "error",
@@ -29,11 +27,12 @@
         "speed": 1
       },
       "profile": {
+        "name": "@ErrorDeva",
+        "describe": "The Error Deva Handles all he errors.",
         "emoji": "/public/devas/error/emoji.png",
         "avatar": "/public/devas/error/avatar.png",
         "background": "",
-        "describe": "Error Deva",
-        "gender": "M"
+        "gender": "deva"
       }
     },
     "vars": {

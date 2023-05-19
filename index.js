@@ -12,8 +12,6 @@ const ERROR = new Deva({
   agent: {
     id: agent.id,
     key: agent.key,
-    name: agent.name,
-    describe: agent.describe,
     prompt: agent.prompt,
     voice: agent.voice,
     profile: agent.profile,
@@ -74,7 +72,7 @@ const ERROR = new Deva({
           const log = JSON.parse(raw);
           log.data.push(packet);
           fs.writeFileSync(logfile, JSON.stringify(log), {encoding:'utf8',flag:'w'});
-          
+
         })
       });
     },
