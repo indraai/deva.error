@@ -5,10 +5,10 @@
   "data": {
     "agent": {
       "id": 3065237668822,
-      "key": "error",
+      "key": "ErrorDeva",
       "prompt": {
         "emoji": "❌",
-        "text": "error",
+        "text": "ErrorDeva",
         "colors": {
           "label": {
             "R": 213,
