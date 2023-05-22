@@ -8,9 +8,9 @@ describe(error.me.name, () => {
   beforeEach(() => {
     return error.init()
   });
-  it('Check the SVARGA Object', () => {
+  it('Check the Deva Object', () => {
     expect(error).to.be.an('object');
-    expect(error).to.have.property('me');
+    expect(error).to.have.property('agent');
     expect(error).to.have.property('vars');
     expect(error).to.have.property('listeners');
     expect(error).to.have.property('methods');
