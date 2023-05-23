@@ -1,6 +1,6 @@
 {
   "name": "@indra.ai/errordeva",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "The Error Deva is responsible for Error Management in deva.world.",
   "main": "index.js",
   "scripts": {
