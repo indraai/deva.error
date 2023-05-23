@@ -4,7 +4,7 @@ p:The ErrorDeva handles the ERROR processing.
 
 
 id: 4690322313284
-key: ErrorDeva
+key: error
 name: Error Deva
 describe: Tracking errors to deva.world.
 
