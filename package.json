@@ -1,7 +1,7 @@
 {
   "name": "@indra.ai/errordeva",
   "version": "0.1.22",
-  "description": "The Deva for managing Errors.",
+  "description": "The Error Deva is responsible for Error Management in deva.world.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
