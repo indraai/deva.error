@@ -1,5 +1,5 @@
 // Copyright (c)2022 Quinn Michaels
-// Error Deva
+// The main Error Deva
 
 const fs = require('fs');
 const path = require('path');
