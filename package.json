@@ -23,7 +23,7 @@
     "url": "https://github.com/indraai/ErrorDeva/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.1.90"
+    "@indra.ai/deva": "^1.1.100"
   },
   "homepage": "https://github.com/indraai/ErrorDeva#readme"
 }
