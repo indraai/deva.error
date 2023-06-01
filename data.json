@@ -22,17 +22,16 @@
           }
         }
       },
-      "voice": {
-        "speech": "Alex",
-        "speed": 1
-      },
       "profile": {
         "name": "Error Deva",
         "describe": "The Error Deva Handles all he errors.",
         "emoji": "/public/devas/error/emoji.png",
         "avatar": "/public/devas/error/avatar.png",
         "background": "/public/devas/error/background.png",
-        "gender": "deva"
+        "color": "#f73131",
+        "bgcolor": "#000000",
+        "gender": "deva",
+        "voice": "matthew"
       }
     },
     "vars": {
