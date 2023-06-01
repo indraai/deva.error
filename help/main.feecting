@@ -1,7 +1,6 @@
-## Error Deva
+# Error Deva Help
 
 p:The ErrorDeva handles the ERROR processing.
-
 
 id: 4690322313284
 key: error
@@ -10,14 +9,23 @@ describe: Tracking errors to deva.world.
 
 ## Methods
 
-cmd:#error uid
+### 1. uid
 p:The ability to generate a UID for the Agent/Client.
+cmd:#error uid
 
-cmd:#error status
+### 2. status
 p:The current status of the ErrorDEVA
+cmd:#error status
 
-cmd:#error help
+### 3. help
 p:The command to view this help document.
+cmd:#error help
 
-#color = var(--color-red)
-#bgcolor = var(--color-black)
+
+-
+
+#color = ::agent_color::
+#bgcolor = ::agent_bgcolor::
+#bg = ::agent_background::
+
+copyright: (c)2023 Quinn Michaels
