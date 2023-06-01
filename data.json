@@ -44,6 +44,11 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!"
+      },
+      "context": {
+        "uid": "Error Deva getting uid",
+        "status": "Error Deva getting status",
+        "help": "Error Deva getting help"
       }
     }
   }

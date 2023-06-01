@@ -39,25 +39,30 @@ const ERROR = new Deva({
   },
   vars,
   deva: {},
-  listeners: {
-    /**************
-    func: error
-    params: packet
-    describe: global listener that grabs all broadcasted errors and calls the
-    report function.
-    ***************/
-    error(packet) {}
-  },
+  listeners: {},
   modules: {},
-  func: {},
+  func: {
+    error(opts) {}
+  },
   methods: {
+    /**************
+    method: uid
+    params: packet
+    describe: Return system unique id.
+    ***************/
+    uid(packet) {
+      this.context('uid');
+      return Promise.resolve(this.uid());
+    },
+
     /**************
     method: status
     params: none
     describe: Return the status of the Error Deva.
     ***************/
     status() {
-      return this.status();
+      this.context('status');
+      return Promise.resolve(this.status());
     },
 
     /**************
@@ -66,8 +71,9 @@ const ERROR = new Deva({
     describe: Return the Error Deva Help files.
     ***************/
     help(packet) {
+      this.context('help');
       return new Promise((resolve, reject) => {
-        this.lib.help(packet.q.text, __dirname).then(help => {
+        this.help(packet.q.text, __dirname).then(help => {
           return this.question(`#feecting parse ${help}`);
         }).then(parsed => {
           return resolve({
@@ -79,5 +85,8 @@ const ERROR = new Deva({
       });
     },
   },
+  onDone(data) {
+    this.listen('error', this.func.error);
+  }
 });
 module.exports = ERROR
