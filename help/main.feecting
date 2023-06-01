@@ -1,11 +1,14 @@
+image: ::agent_avatar::
+
 # Error Deva Help
 
 p:The ErrorDeva handles the ERROR processing.
 
-id: 4690322313284
-key: error
-name: Error Deva
-describe: Tracking errors to deva.world.
+id: ::agent_id::
+key: #::agent_key::
+name: ::agent_name::
+emoji: ::agent_emoji::
+describe: ::agent_describe::
 
 ## Methods
 
