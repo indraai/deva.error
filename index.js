@@ -1,5 +1,7 @@
 // Copyright (c)2022 Quinn Michaels
-// The main Error Deva
+// The main Error Deva for deva.world
+const Deva = require('@indra.ai/deva');
+
 const fs = require('fs');
 const path = require('path');
 const package = require('./package.json');
@@ -17,7 +19,6 @@ const info = {
 };
 const data_path = path.join(__dirname, 'data.json');
 const {agent,vars} = require(data_path).DATA;
-const Deva = require('@indra.ai/deva');
 const ERROR = new Deva({
   info,
   agent,
