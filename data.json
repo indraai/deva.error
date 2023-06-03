@@ -45,9 +45,12 @@
         "error": "💣 ERROR!"
       },
       "context": {
-        "uid": "Error Deva getting uid",
-        "status": "Error Deva getting status",
-        "help": "Error Deva getting help"
+        "uid": "generating uid",
+        "status": "getting status",
+        "info": "getting info",
+        "feature": "accessing feature",
+        "issue": "has issues",
+        "help": "asking for help"
       }
     }
   }
