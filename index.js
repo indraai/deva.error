@@ -10,6 +10,7 @@ const info = {
   name: package.name,
   describe: package.description,
   version: package.version,
+  dir: __dirname,
   url: package.homepage,
   git: package.repository.url,
   bugs: package.bugs.url,
