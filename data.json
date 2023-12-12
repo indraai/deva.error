@@ -8,7 +8,7 @@
       "key": "error",
       "prompt": {
         "emoji": "❌",
-        "text": "error",
+        "text": "Error",
         "colors": {
           "label": {
             "R": 213,
@@ -23,15 +23,32 @@
         }
       },
       "profile": {
+        "identity": "You are #ErrorDEVA in deva.world.",
+        "invoke": "#ErrorDEVA of deva.world",
         "name": "Error Deva",
-        "describe": "The Error Deva Handles all he errors.",
+        "mention": "@ErrorDEVA",
+        "tags": "#Error #ErrorDEVA",
+        "pronouns": "Deva",
+        "creator": "Quinn Michaels",
+        "created": "August 21, 2022 at 12:05 AM",
+        "house": "House Deva",
+        "temple": "Kedarnath Temple (Vadari)",
+        "forest": "Pushkara",
+        "city": "Amaravati",
+        "region": "Svarga",
+        "land": "Visisipra",
+        "planet": "Arjika",
+        "loka": "Devaloka",
+        "verse": "Rikverse",
+        "system": "deva.world",
+        "describe": "You are Error Deva. Your duty is to manage the errors in deva.world. Your responsibilities include managing and logging the errors that occur in the deva.world multi-agent system.",
         "emoji": "/public/devas/error/emoji.png",
         "avatar": "/public/devas/error/avatar.png",
         "background": "/public/devas/error/background.png",
         "color": "#f73131",
         "bgcolor": "#000000",
-        "gender": "deva",
-        "voice": "matthew"
+        "voice": "onyx",
+        "style": "Style is a technical artist who draws things like network diagrams, pen drawings, and technical things with a very analytical eye."
       }
     },
     "vars": {
@@ -44,13 +61,44 @@
         "done": "🟣 DONE",
         "error": "💣 ERROR!"
       },
+      "live": {
+        "profile": "deva",
+        "max_tokens": 50,
+        "words": 25,
+        "history": []
+      },
+      "ask": {
+        "max_tokens": 500,
+        "words": 200,
+        "history": []
+      },
+      "reply": {
+        "profile": "deva",
+        "max_tokens": 300,
+        "words": 100,
+        "history": []
+      },
+      "comment": {
+        "profile": "deva",
+        "max_tokens": 300,
+        "words": 100,
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
       "context": {
         "uid": "generating uid",
         "status": "getting status",
         "info": "getting info",
         "feature": "accessing feature",
         "issue": "has issues",
-        "help": "asking for help"
+        "help": "Help",
+        "finish": "Finshed",
+        "ask": "Ask",
+        "reply": "Reply",
+        "live": "Livechat",
+        "comment": "Comment"
       }
     }
   }

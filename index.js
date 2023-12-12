@@ -2,8 +2,6 @@
 // The main Error Deva for deva.world
 const Deva = require('@indra.ai/deva');
 
-const fs = require('fs');
-const path = require('path');
 const package = require('./package.json');
 const info = {
   id: package.id,
@@ -18,8 +16,7 @@ const info = {
   license: package.license,
   copyright: package.copyright,
 };
-const data_path = path.join(__dirname, 'data.json');
-const {agent,vars} = require(data_path).DATA;
+const {agent,vars} = require('./data.json').DATA;
 const ERROR = new Deva({
   info,
   agent,
@@ -29,14 +26,19 @@ const ERROR = new Deva({
     parse(input) {return input.trim();},
     process(input) {return input.trim();}
   },
-  listeners: {},
+  listeners: {
+    'error'(packet) {
+      this.func.error(packet);
+    }
+  },
   modules: {},
   func: {
-    error(err) {return;}
+    error(err) {
+      console.log('ERROR ERROR DEVA', err);
+      return;
+    }
   },
   methods: {},
-  onDone(data) {
-    this.listen('error', this.func.error);
-  }
 });
+
 module.exports = ERROR
