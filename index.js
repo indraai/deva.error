@@ -1,7 +1,6 @@
 // Copyright (c)2022 Quinn Michaels
 // The main Error Deva for deva.world
 const Deva = require('@indra.ai/deva');
-
 const package = require('./package.json');
 const info = {
   id: package.id,
