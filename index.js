@@ -39,5 +39,4 @@ const ERROR = new Deva({
   },
   methods: {},
 });
-
 module.exports = ERROR
