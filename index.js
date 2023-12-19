@@ -26,7 +26,7 @@ const ERROR = new Deva({
     process(input) {return input.trim();}
   },
   listeners: {
-    'error'(packet) {
+    'devacore:error'(packet) {
       this.func.error(packet);
     }
   },
