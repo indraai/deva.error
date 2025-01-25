@@ -1,7 +1,10 @@
 {
   "id": 4690322313284,
-  "name": "@indra.ai/errordeva",
-  "version": "0.1.58",
+  "name": "@indra.ai/deva.error",
+  "version": "0.0.1",
+  "author": "Quinn Michaels",
+  "copyright": "2025",
+  "license": "MIT",
   "description": "The Error Deva is responsible for Error Management in deva.world.",
   "main": "index.js",
   "scripts": {
@@ -9,21 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/indraai/ErrorDeva.git"
+    "url": "git+ssh://git@github.com/indraai/deva.error.git"
   },
   "keywords": [
     "error",
     "deva",
     "deva.world"
   ],
-  "author": "Quinn Michaels",
-  "copyright": "2023",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/indraai/ErrorDeva/issues"
+    "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
     "@indra.ai/deva": "^1.2.23"
   },
-  "homepage": "https://github.com/indraai/ErrorDeva#readme"
+  "homepage": "https://deva.world/error"
 }
