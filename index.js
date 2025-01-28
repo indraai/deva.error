@@ -3,6 +3,10 @@
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
 
+import {dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';    
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 const info = {
   id: pkg.id,
   name: pkg.name,
