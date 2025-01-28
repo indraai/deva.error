@@ -19,6 +19,7 @@ const info = {
 
 import data from './data.json' with {type:'json'};
 const {agent,vars} = data.DATA;
+
 const ERROR = new Deva({
   info,
   agent,
