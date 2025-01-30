@@ -27,7 +27,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.2.34"
+    "@indra.ai/deva": "^1.2.36"
   },
   "homepage": "https://deva.space/devas/error"
 }
