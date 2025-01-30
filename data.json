@@ -8,7 +8,7 @@
       "key": "error",
       "prompt": {
         "emoji": "❌",
-        "text": "error",
+        "text": "Error",
         "colors": {
           "label": {
             "R": 213,
