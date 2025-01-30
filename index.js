@@ -46,5 +46,9 @@ const ERROR = new Deva({
     }
   },
   methods: {},
+  onReady(data, resolve) {
+    this.prompt('ready');
+    return resolve(data);
+  }
 });
 export default ERROR
