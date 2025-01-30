@@ -1,4 +1,4 @@
-// Copyright (c)2022 Quinn Michaels
+// Copyright (c)2025 Quinn Michaels
 // The main Error Deva for deva.world
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
