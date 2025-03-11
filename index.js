@@ -1,7 +1,9 @@
 // Copyright (c)2025 Quinn Michaels
 // The main Error Deva for deva.world
 import Deva from '@indra.ai/deva';
+import {MongoClient} from 'mongodb';
 import pkg from './package.json' with {type:'json'};
+const {agent,vars} = pkg.data;
 
 import {dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';    
@@ -21,9 +23,6 @@ const info = {
   copyright: pkg.copyright,
 };
 
-import data from './data.json' with {type:'json'};
-const {agent,vars} = data.DATA;
-
 const ERROR = new Deva({
   info,
   agent,
@@ -35,19 +34,39 @@ const ERROR = new Deva({
   },
   listeners: {
     'devacore:error'(packet) {
-      this.func.error(packet);
+      this.func.error_write('errors', packet);
     }
   },
   modules: {},
   func: {
-    error(err) {
-      console.log('ERROR ERROR DEVA', err);
-      return;
-    }
+    /**************
+    func: log_write
+    params: type, packet
+    describe: this is the log file writer function that handles writing
+    the interactions to json log file.
+    ***************/
+    async error_write(type, packet) {
+      this.prompt('error_write')
+      console.log(packet);
+      const created = Date.now();
+      let result = false;
+      try {
+        const database = this.modules.client.db(this.vars.database);
+        const collection = database.collection(type);
+        result = await collection.insertOne(packet);
+      } catch (e) {
+        console.error(e);
+      } finally {
+        return result;
+      }
+    },
   },
   methods: {},
   onReady(data, resolve) {
-    this.prompt(this.vars.messages.ready);
+    const {uri,database} = this.services().personal.mongo;
+    this.modules.client = new MongoClient(uri);
+    this.vars.database = database;
+    this.prompt(this.vars.messages.ready)
     return resolve(data);
   },
   onError(err, data, reject) {
