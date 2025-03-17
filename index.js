@@ -64,7 +64,6 @@ const ERROR = new Deva({
   methods: {},
   onReady(data, resolve) {
     const {uri,database} = this.services().personal.mongo;
-    console.log(uri,database);
     this.modules.client = new MongoClient(uri);
     this.vars.database = database;
     this.prompt(this.vars.messages.ready)
