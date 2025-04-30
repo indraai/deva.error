@@ -27,7 +27,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.5.35",
+    "@indra.ai/deva": "^1.5.36",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://deva.space/devas/error",
@@ -52,11 +52,12 @@
         }
       },
       "profile": {
-        "name": "#ErrorDeva",
+        "name": "Error Deva",
+        "hashtag": "#ErrorDeva",
         "title": "Error Deva",
-        "subtitle": "Handling the errors in Deva.world",
-        "describe": "ErrorDEVA manages the errors in Deva.world. Responsibilities include managing, logging, and reporting the errors that occur in Deva.world.",
-        "tweet": "ErrorDEVA manages the errors in Deva.world.",
+        "subtitle": "Handling the errors and reporting problems.",
+        "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
+        "tweet": "Managing errors in the system to make sure all the problems are logged and reported.",
         "hashtags": "QuinnMichaels,IndraAI,DevaWorld,ErrorDeva",
         "pronouns": "He, Him",
         "gender": "DEVA",
