@@ -1,10 +1,24 @@
 {
-  "id": 4690322313284,
+  "id": 22985777707083983794,
   "name": "@indra.ai/deva.error",
   "version": "0.0.54",
-  "author": "Quinn Michaels",
-  "copyright": "2025",
-  "license": "MIT",
+  "license": "VLA LICENSE.md",
+  "author": {
+    "name": "Quinn A Michaels",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "(c)2025 Quinn A Michaels; All rights reserved.",
   "description": "The Error Deva is responsible for Error Management in deva.world.",
   "main": "index.js",
   "type": "module",
@@ -30,13 +44,13 @@
     "@indra.ai/deva": "^1.5.56",
     "mongodb": "^6.14.2"
   },
-  "homepage": "https://deva.space/devas/error",
+  "homepage": "https://indra.ai",
   "data": {
     "agent": {
-      "id": 3574974849802,
+      "id": 61306369135255615524,
       "key": "error",
       "prompt": {
-        "emoji": "💣",
+        "emoji": "❌",
         "text": "Error",
         "colors": {
           "label": {
@@ -53,7 +67,7 @@
       },
       "profile": {
         "name": "Error Deva",
-        "hashtag": "#ErrorDeva",
+        "hashtag": "#Error",
         "title": "Error Deva",
         "subtitle": "Handling the errors and reporting problems.",
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
@@ -67,13 +81,14 @@
         "layout": "default",
         "color": "rgb(247,49,49)",
         "bgcolor": "rgb(0,0,0)",
-        "emoji": "/assets/devas/error/emoji.png",
-        "avatar": "/assets/devas/error/avatar.png",
-        "image": "/assets/devas/error/image.png",
-        "background": "/assets/devas/error/background.png",
-        "owner": "Quinn Michaels",
-        "creator": "Quinn Michaels",
-        "created": "August 21, 2022 at 12:05 AM"
+        "emoji": "/assets/emoji.png",
+        "avatar": "/assets/avatar.png",
+        "image": "/assets/image.png",
+        "background": "/assets/background.png",
+        "owner": "Quinn A Michaels",
+        "creator": "Quinn A Michaels",
+        "created": "August 21, 2022 at 12:05 AM",
+        "modified": "September 6, 2025 - 3:25:46 PM"
       }
     },
     "vars": {

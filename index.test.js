@@ -1,4 +1,7 @@
-// Copyright (c)2022 Quinn Michaels
+// ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under the Vedic License Agreement LICENSE.md
+
 // ERROR test file
 
 const {expect} = require('chai')

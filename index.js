@@ -1,5 +1,8 @@
-// Copyright (c)2025 Quinn Michaels
-// The main Error Deva for deva.world
+// ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under the Vedic License Agreement LICENSE.md
+// The Error Deva for deva.world
+
 import Deva from '@indra.ai/deva';
 import {MongoClient} from 'mongodb';
 import pkg from './package.json' with {type:'json'};
@@ -34,6 +37,7 @@ const ERROR = new Deva({
   },
   listeners: {
     'devacore:error'(packet) {
+      this.methods.echo(agent.key, 'a', packet);
       this.func.error_write('errors', packet);
     }
   },
