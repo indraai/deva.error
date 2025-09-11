@@ -41,7 +41,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.6.38",
+    "@indra.ai/deva": "^1.6.41",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
