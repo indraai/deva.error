@@ -41,7 +41,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.6.63",
+    "@indra.ai/deva": "^1.6.64",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
@@ -96,7 +96,7 @@
         "init": "🟠 INIT",
         "start": "🔵 START",
         "enter": "🟢 ENTER",
-        "ready": "👺 Ready for Error Capture",
+        "ready": "👺 Ready for Error Capture.",
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
