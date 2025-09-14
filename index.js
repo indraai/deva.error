@@ -1,6 +1,7 @@
+"use strict";
 // ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under the Vedic License Agreement LICENSE.md
+// Distributed under VLA:60708001829108561844 LICENSE.md
 // The Error Deva for deva.world
 
 import Deva from '@indra.ai/deva';
@@ -14,6 +15,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const info = {
   id: pkg.id,
+  license: pkg.license,
+  VLA: pkg.VLA,
   name: pkg.name,
   describe: pkg.description,
   version: pkg.version,
@@ -22,7 +25,6 @@ const info = {
   git: pkg.repository.url,
   bugs: pkg.bugs.url,
   author: pkg.author,
-  license: pkg.license,
   copyright: pkg.copyright,
 };
 
@@ -66,11 +68,19 @@ const ERROR = new Deva({
     },
   },
   methods: {},
+  onInit(data, resolve) {
+    const {personal} = this.license(); // get the license config
+    const agent_license = this.info().VLA; // get agent license
+    const license_check = this.license_check(personal, agent_license); // check license
+    // return this.start if license_check passes otherwise stop.
+    return license_check ? this.start(data, resolve) : this.stop(data, resolve);
+  }, 
   onReady(data, resolve) {
     const {uri,database} = this.error().global.mongo;
+    const {VLA} = this.info();
     this.modules.client = new MongoClient(uri);
     this.vars.database = database;
-    this.prompt(this.vars.messages.ready)
+    this.prompt(`${this.vars.messages.ready} > VLA:${VLA.uid}`);
     return resolve(data);
   },
   onError(err, data, reject) {

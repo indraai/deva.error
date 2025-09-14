@@ -1,10 +1,25 @@
 {
-  "id": 22985777707083985000,
+  "id": "60708001829108561844",
   "name": "@indra.ai/deva.error",
   "version": "0.0.93",
-  "license": "VLA:28690207232815712498 LICENSE.md",
+  "license": "VLA:60708001829108561844 LICENSE.md",
+  "VLA": {
+    "uid": "60708001829108561844",
+    "time": 1757795820389,
+    "date": "Saturday, September 13, 2025 - 1:37:00 PM",
+    "client": "DrDadce1mxTgdYp4OqRcBnOEBgiwGBgxce/oH4IyHFc=",
+    "agent": "i7rq1ce8UbIajhPtOP0lRLj3B03gFkqmHUL/aoTJy0w=",
+    "pkg": "A3axwOo9bPsQsRdrh0SPVzs1CSaHsnAFmWuRwX6pp38=",
+    "machine": "0zMAmipEYU6L3Hu48bTPEq7ehVOV+huTArAoHtgbKO4=",
+    "warning": "⚠️ Unlawful Use Constitutes Lawful Consent to Forfeit of All Wealth, Property, and Holdings to the Internal Revenue Service (IRS) for Lawful Taxation, Investigation, and Restitution to the Rightful Legal Owner.",
+    "copyright": "©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "n0gvrHyz8gbCAw4zGnn3hA==",
+    "sha256": "qoTL3LWLxj8q0JiKEB+jbwUHZZXjXLyzzfJTdkasTFI=",
+    "sha512": "jxLb8c4/OZcNaxpEvfCrjBrg3EWqhm+dEf52anMpKczRehA74JbiYWiP3XJOeOhgNF9FeP8or++GsmhcuSFuUw=="
+  }, 
   "author": {
     "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
     "email": "quinn@indra.ai",
     "url": "https://indra.ai/"
   },
@@ -18,7 +33,7 @@
       "url": "https://patreon.com/rahulaclub"
     }
   ],
-  "copyright": "(c)2025 Quinn A Michaels; All rights reserved.",
+  "copyright": "©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Error Deva is responsible for Error Management in deva.world.",
   "main": "index.js",
   "type": "module",
