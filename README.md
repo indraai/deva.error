@@ -15,6 +15,6 @@ import error from '@indra.ai/deva.error')';
 const error = require('@indra.ai/deva.error');
 ```
 
-©2025 Quinn A Michaels; All rights reserved. 
-Legal Signature Required For Lawful Use.
-Distributed under VLA:60708001829108561844 LICENSE.md
+Copyright ©2025 Quinn A Michaels; All rights reserved.  
+Legal Signature Required For Lawful Use.  
+Distributed under VLA:57138764230079470756 LICENSE.md  

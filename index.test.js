@@ -1,7 +1,7 @@
 "use strict";
-// ©2025 Quinn A Michaels; All rights reserved. 
+// Copyright ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:60708001829108561844 LICENSE.md
+// Distributed under VLA:57138764230079470756 LICENSE.md
 
 // ERROR test file
 
