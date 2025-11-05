@@ -50,13 +50,17 @@
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc.",
+    "Throwing Pigment",
+    "bleuBrain"
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.20.2",
+    "@indra.ai/deva": "^1.20.3",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
@@ -96,10 +100,10 @@
         "layout": "default",
         "color": "rgb(247,49,49)",
         "bgcolor": "rgb(0,0,0)",
-        "emoji": "/assets/emoji.png",
-        "avatar": "/assets/avatar.png",
-        "image": "/assets/image.png",
-        "background": "/assets/background.png",
+        "emoji": "/devas/error/emoji.png",
+        "avatar": "/devas/error/avatar.png",
+        "image": "/devas/error/image.png",
+        "background": "/devas/error/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
         "created": "August 21, 2022 at 12:05 AM",
