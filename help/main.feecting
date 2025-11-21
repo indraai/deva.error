@@ -1,6 +1,6 @@
-// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Copyright ©2000-2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:17865910127685447780 LICENSE.md
+// Distributed under VLA:64117952128852072441 LICENSE.md
 
 ::BEGIN:MAIN
 # {{profil.ename}}
@@ -11,6 +11,17 @@
 #color = {{profile.color}}
 #bgcolor = {{profile.bgcolor}}
 #bg = {{profile.bg}}
-copyright: (c)2025 Quinn Michaels
+copyright: {{profile.copyright}}
 ::end:hidden
 ::END:MAIN
+
+::BEGIN:LICENSE
+::begin:license:uid:64117952128852072441
+uid: 64117952128852072441
+time: 1763686666571
+date: Thursday, November 20, 2025 - 4:57:46 PM
+fingerprint: BAis3xdANXhg23saTWS5vDtpySlJIOm24xEWwFS2ezA=
+warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.
+copyright: Copyright ©2000-2025 Quinn A Michaels; All rights reserved.
+::end:license:uid:64117952128852072441
+::END:LICENSE

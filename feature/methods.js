@@ -1,7 +1,7 @@
 "use strict";
-// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Copyright ©2000-2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:17865910127685447780 LICENSE.md
+// Distributed under VLA:64117952128852072441 LICENSE.md
 
 export default {
 	async error(packet) {
