@@ -1,18 +1,16 @@
 {
-  "id": "64117952128852072441",
+  "id": "65355666746601692885",
   "name": "@indra.ai/deva.error",
   "version": "0.10.1",
-  "license": "VLA:64117952128852072441 LICENSE.md",
+  "license": "VLA:65355666746601692885 LICENSE.md",
   "VLA": {
-    "uid": "64117952128852072441",
-    "time": 1763686666571,
-    "date": "Thursday, November 20, 2025 - 4:57:46 PM",
-    "fingerprint": "BAis3xdANXhg23saTWS5vDtpySlJIOm24xEWwFS2ezA=",
+    "uid": "65355666746601692885",
+    "time": 1763832384391,
+    "date": "Saturday, November 22, 2025 - 9:26:24 AM",
     "warning": "⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
-    "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
-    "md5": "VKtgJOrxIigrOCgZh9Uq2Q==",
-    "sha256": "UpkiNUN63WI4HTehHGO5XJD58Mh9zSk0az9cY6B/AB0=",
-    "sha512": "H5IZfon1fvD+LqlT8/v6p+DwI9BHp7QjZXrATW56c8h+0rhT1KrP0OMdFvHf8eiQpaPziWYPVljKuuZleabrCA=="
+    "license": "46220923248993739422",
+    "fingerprint": "iKUDCEfQYMGcxuFcnYvNdf0mzEhCT2rBwWRqmIKZSko=",
+    "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved."
   },
   "author": {
     "name": "Quinn A Michaels",
@@ -44,13 +42,14 @@
   "keywords": [
     "Error",
     "Deva",
+    "Error Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
     "Inside The Net, Inc.",
-    "Throwing Pigment",
+    "Throwing Pigment™",
     "bleuBrain"
   ],
   "bugs": {
@@ -63,10 +62,10 @@
   "homepage": "https://indra.ai",
   "data": {
     "agent": {
-      "id": "66905181217416541418",
+      "id": "24725767667905067445",
       "key": "error",
       "prompt": {
-        "emoji": "❌",
+        "emoji": "‼️",
         "text": "#error",
         "colors": {
           "label": {
@@ -82,7 +81,7 @@
         }
       },
       "profile": {
-        "id": "27472537576356769673",
+        "id": "57548528756116050775",
         "name": "Error Deva",
         "hashtag": "#Error",
         "title": "Error Deva",
@@ -90,7 +89,7 @@
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
         "tweet": "Managing errors in the system to make sure all the problems are logged and reported.",
         "hashtags": "QuinnMichaels,IndraAI,DevaWorld,ErrorDeva",
-        "pronouns": "He, Him",
+        "pronouns": "He, Him, His",
         "gender": "DEVA",
         "style": "Technical illustrations and flow charts.",
         "voice": "onyx",
@@ -104,9 +103,9 @@
         "background": "/devas/error/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
-        "created": "August 21, 2022 at 12:05 AM",
         "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
-        "modified": "September 6, 2025 - 3:25:46 PM"
+        "created": "August 21, 2022 at 12:05 AM",
+        "updated": "Saturday, November 22, 2025 - 9:26:24 AM"
       }
     },
     "vars": {
@@ -118,7 +117,7 @@
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
-        "error": "❌ Error Alert"
+        "error": "‼️ Error Alert"
       },
       "live": {
         "profile": "deva",
