@@ -56,7 +56,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.29.31",
+    "@indra.ai/deva": "^1.30.0",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
@@ -83,7 +83,7 @@
       "profile": {
         "id": "57548528756116050775",
         "name": "Error Deva",
-        "hashtag": "#Error",
+        "hashtag": "#ErrorDeva",
         "title": "Error Deva",
         "subtitle": "Handling the errors and reporting problems.",
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
@@ -103,6 +103,7 @@
         "background": "/devas/error/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
+        "warning": "{{prompt.emoji}} {{profile.hashtag}} Vedic Error Correction. They come #TroopingTogether bearing #Milk to him, and bring him #Sustenance who gives #Support to all. The way is common for the downward streams to flow. Thou who didst these things first art #Worthy of our #Lauds. #OnePriest announces what the #Institutor gives. #SecondPriest altering the forms, zealously plies his task. The #ThirdPriest #Corrects the #Imperfections left by each. #DealingOutFood unto their #People there they sit, like #Wealth to him who comes, more than the back can bear. #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree.",
         "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
         "created": "August 21, 2022 at 12:05 AM",
         "updated": "Saturday, November 22, 2025 - 9:26:24 AM"
