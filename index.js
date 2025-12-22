@@ -45,6 +45,7 @@ const ERROR = new Deva({
     }
   },
   modules: {},
+  devas: {},
   func: {
     /**************
     func: log_write
