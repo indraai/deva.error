@@ -40,7 +40,6 @@ const ERROR = new Deva({
   },
   listeners: {
     'devacore:error'(packet) {
-      this.methods.echo(agent.key, 'a', packet);
       this.func.error_write('errors', packet);
     }
   },
