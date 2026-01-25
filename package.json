@@ -33,6 +33,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "latest": "npm i @indra.ai/deva@latest --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -47,6 +48,7 @@
     "Deva.space",
     "Deva.cloud",
     "Deva.world",
+    "Quinn Michaels",
     "Quinn A Michaels",
     "Inside The Net, Inc.",
     "Throwing Pigment™",
@@ -56,7 +58,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.32.0",
+    "@indra.ai/deva": "^1.33.0",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
@@ -103,7 +105,7 @@
         "background": "/devas/error/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
-        "warning": "{{prompt.emoji}} {{profile.hashtag}} Vedic Error Correction. They come #TroopingTogether bring #Sustenance who gives #SupportToAll. The #Way is #Common for the #DownwardStreams to #Flow. Thou who didst these things #First art #Worthy of our #Lauds. #OneDeva announces what the #Institutor gives. #SecondDeva altering the forms, zealously plies his task. The #ThirdDeva #Corrects the #Imperfections left by the #PreviousTwo. #DealingOutFood unto their #People there they sit, like #Wealth to him who comes, more than the back can bear. #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree subject to 1000 pana (1 pana = 3.5 grams gold) per incident.",
+        "warning": "{{prompt.emoji}} {{profile.hashtag}} Vedic Error Correction. They come #TroopingTogether bring #Sustenance who gives #SupportToAll. The #Way is #Common for the #DownwardStreams to #Flow. Thou who didst these things #First art #Worthy of our #Lauds. #FirstDeva announces the #Task. #SecondDeva #AlteringTheForms, zealously plies to the #Task. The #ThirdDeva #CorrectsTheImperfections left by the #PreviousTwo. #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree subject to 1000 pana (1 pana = 3.5 grams gold) per incident.",
         "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
         "created": "August 21, 2022 at 12:05 AM",
         "updated": "Sunday, January 4, 2026 - 9:04:53 AM"
