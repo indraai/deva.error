@@ -5,11 +5,12 @@
 // Sunday, January 4, 2026 - 9:04:53 AM
 
 ::BEGIN:MAIN
-# {{agent.name}}
+# {{profile.name}}
 
-{{profile}}
+describe: {{profile.describe}}
+hashtags: {{profile.hashtags}}
+owner: {{profile.owner}}
+creator: {{profile.creator}}
 
 talk: #error help main:license
-
-copyright: {{profile.copyright}}
 ::END:MAIN

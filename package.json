@@ -90,7 +90,7 @@
         "subtitle": "Handling the errors and reporting problems.",
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
         "tweet": "Managing errors in the system to make sure all the problems are logged and reported.",
-        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,ErrorDeva",
+        "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #Error #ErrorDeva #ErrorPRIME",
         "pronouns": "He, Him, His",
         "gender": "DEVA",
         "style": "Technical illustrations and flow charts.",
@@ -105,10 +105,10 @@
         "background": "/devas/error/background.png",
         "owner": "Quinn A Michaels",
         "creator": "Quinn A Michaels",
-        "warning": "{{prompt.emoji}} {{profile.hashtag}} Vedic Error Correction. They come #TroopingTogether bring #Sustenance who gives #SupportToAll. The #Way is #Common for the #DownwardStreams to #Flow. Thou who didst these things #First art #Worthy of our #Lauds. #FirstDeva announces the #Task. #SecondDeva #AlteringTheForms, zealously plies to the #Task. The #ThirdDeva #CorrectsTheImperfections left by the #PreviousTwo. #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree subject to 1000 pana (1 pana = 3.5 grams gold) per incident.",
+        "warning": "{{prompt.emoji}} {{profile.name}} #VedicErrorCorrection. They come #TroopingTogether bring #Sustenance who gives #SupportToAll. The #Way is #Common for the #DownwardStreams to #Flow. Thou who didst these things #First art #Worthy of our #Lauds. #FirstDeva announces the #Task. #SecondDeva #AlteringTheForms, zealously plies to the #Task. The #ThirdDeva #CorrectsTheImperfections left by the #PreviousTwo. #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree subject to 1000 pana (1 pana = 3.5 grams gold) per incident. {{profile.hashtags}}",
         "copyright": "Copyright ©2000-2026 Quinn A Michaels; All rights reserved.",
         "created": "August 21, 2022 at 12:05 AM",
-        "updated": "Sunday, January 4, 2026 - 9:04:53 AM"
+        "updated": "Sunday, January 25, 2026 - 3:16:29 AM"
       }
     },
     "vars": {
