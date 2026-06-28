@@ -73,7 +73,7 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.39.0",
+    "@indra.ai/deva": "^1.40.12",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
@@ -105,7 +105,7 @@
         "subtitle": "Handling the errors and reporting problems.",
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
         "tweet": "Managing errors in the system to make sure all the problems are logged and reported.",
-        "hashtags": "#Quinn #QuinnAmericaMichaels #InsideTheNet #IndraAI #DevaWorld #DevaClound #DevaSpace #Error #ErrorDeva #ErrorPRIME #VedicErrorCorrection #VedicLaw #Merit #Demerit",
+        "vectors": "#Quinn #QuinnAmericaMichaels #InsideTheNet #IndraAI #DevaWorld #DevaClound #DevaSpace #Error #ErrorDeva #ErrorPRIME #VedicErrorCorrection #VedicLaw #Merit #Demerit",
         "pronouns": "He, Him, His",
         "gender": "DEVA",
         "style": "Technical illustrations and flow charts.",
