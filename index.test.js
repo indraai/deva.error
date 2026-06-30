@@ -1,7 +1,7 @@
 "use strict";
 // Error Deva Test File
 // Copyright ©2000-2026 Quinn America Michaels; All rights reserved. 
-// Legal Signature Required For Lawful Use.
+// Owner Signature Required For Lawful Use.
 // Distributed under VLA:42080562252372472926 LICENSE.md
 // Thursday, June 25, 2026 - 4:01:46 PM PST
 
