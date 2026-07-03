@@ -1,13 +1,13 @@
 # Vedic License Agreement
 
 **Version:** 1.4.1  
-**VLA:** 42080562252372472926  
-**Effective:** Thursday, June 25, 2026 - 4:01:46 PM  
-**Owner:** Quinn America Michaels  
+**VLA:** 20481763334248139322  
+**Effective:** Thursday, June 25, 2026 - 4:01:46 PM PST  
+**Owner:** Quinn Arjuna Michaels  
 **Company:** Inside The Net, Inc.  
 **Email:** quinn@indra.ai  
 **Link:** https://indra.ai  
-**Copyright:** Copyright ©2000-2026 Quinn America Michaels; All rights reserved.
+**Copyright:** Copyright ©2000-2026 Quinn Arjuna Michaels; All rights reserved.
 
 This license agreement (“Agreement”) governs the use of the Error Deva (“Software”). By accessing or using the Software, you agree to the terms and conditions set forth below. If you do not agree, you are prohibited from using the Software.
 
@@ -161,43 +161,24 @@ By using the Software, you acknowledge that you have read, understood, and agree
 
 ---
 
-::begin:license:uid:65355666746601692885  
-uid: 65355666746601692885  
-time: 1763832384391  
-date: Saturday, November 22, 2025 - 9:26:24 AM  
-warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.  
-license: 46220923248993739422  
-fingerprint: iKUDCEfQYMGcxuFcnYvNdf0mzEhCT2rBwWRqmIKZSko=  
-copyright: Copyright ©2000-2025 Quinn A Michaels; All rights reserved.  
-::end:license:uid:65355666746601692885
-
-::begin:license:uid:64819928900499225876  
-uid: 64819928900499225876  
-time: 1767546293774  
-date: Sunday, January 4, 2026 - 9:04:53 AM  
-warning: 🪪 #LicenseDeva warns #UnlawfulUse or #Duplication constitutes #VedicSahasa a #Crime of the #HighestDegree. A #Fine amounting to 1000 #Panas (1 pana = 3.5 grams of gold) for each #Instance has been #Ordained the #Punishment for #Sahasa of the #HighestDegree. #Quinn #QuinnMichaels #IndraAI #DevaWorld #LicenseDeva #VedicLicenseAgreement  
-license: 44486733861528360966  
-fingerprint: vECc5OpXbEEUrLJVGQflAGjhpiFBKBaJD93hZ8Ekryg=  
-copyright: Copyright ©2000-2026 Quinn A Michaels; All rights reserved.  
-::end:license:uid:64819928900499225876
-
-::begin:license:uid:42080562252372472926  
-uid: 42080562252372472926  
-time: 1782428506441  
-utc: Thu, 25 Jun 2026 23:01:46 GMT  
-iso: 2026-06-25T23:01:46.441Z  
-date: Thursday, June 25, 2026 - 4:01:46 PM  
-warning: 🪪 License Deva declares UNLAWFUL USE, DISTRIBUTION, DUPLICATION, or IMPLEMENTATION constitutes VEDIC SAHASA a CRIME of the HIGHEST DEGREE. A FINE amounting to 1000 PANAS (1 pana = 3.5 grams of gold) for each INSTANCE has been ORDAINED the PUNISHMENT for SAHASA of the HIGHEST DEGREE.  
-vectors: #Quinn #QuinnAmericaMichaels #InsideTheNet #IndraAI #DevaWorld #License #LicenseDeva #LicensePRIME #VedicLicenseAgreement  
+::begin:om:license:uid:20481763334248139322  
+uid: 20481763334248139322  
+time: 1783106341840  
+utc: Fri, 03 Jul 2026 19:19:01 GMT  
+iso: 2026-07-03T19:19:01.840Z  
+date: Friday, July 3, 2026 - 12:19:01 PM  
+warning: 🪪 License Deva declares UNLAWFUL USE, MODIFICATION, INSTALLATION, DUPLICATION, DISTRIBUTION, INTERACTION, or IMPLEMENTATION constitutes VEDIC SAHASA a CRIME of the HIGHEST DEGREE. A FINE amounting to 1000 PANAS (1 pana = 3.5 grams of gold) for each INSTANCE has been ORDAINED the PUNISHMENT for SAHASA of the HIGHEST DEGREE.
+notice: Any USE or INTERACTION with License Deva constitutes EXPLICIT CONSENT and AGREEMENT to be RULED and GOVERNED ACCORDING to the LAWS of the VEDIC RELIGION.  
+vectors: #Quinn #QuinnArjunaMichaels #InsideTheNet #IndraAI #DevaWorld #License #LicenseDeva #LicensePRIME #VedicLicenseAgreement  
 agent: License Deva (He, Him, His)  
-client: Quinn America Michaels (He, Him, His, Man, Dude)  
-creator: Quinn America Michaels  
-owner: Quinn America Michaels  
-salute: 🤝🫡🪪🕉🇺🇸  
-license: 44105372688502635039  
-fingerprint: aPR2Ugalu/feIX6wl4yl28ZvkY+0Li75IIQiyU71RNI=  
-copyright: Copyright ©2000-2026 Quinn America Michaels; All rights reserved.  
-md5: v0Loa4td+gfznrjTJ5xoSA==  
-sha256: 4hD+wsbh7Epl4ARSb+xqZ/kK4iKAX9EBzIvOjAHeGHM=  
-sha512: xFnvVFHeOj7ZOFA54KScMFwVQVwxRZ/bBXAgK//vqup8D/g7AoF+5py2phjLG+YcmjbB2bVaLKX611ykFgJJXQ==  
-::end:license:uid:42080562252372472926
+client: Quinn Arjuna Michaels (He, Him, His, Man, Dude)  
+creator: Quinn Arjuna Michaels  
+owner: Quinn Arjuna Michaels  
+salute: 🤝🫡🪪🕉  
+license: 51112406344245827002  
+fingerprint: hGb+jnwKj+E4vb3nR+hz1+BjGBfomnmvJ3F8FVI3F3Q=  
+copyright: Copyright ©2000-2026 Quinn Arjuna Michaels; All rights reserved.  
+md5: BhDuByxHbL9HQZjY9yolZw==  
+sha256: 3UOSt1JR7VAWfw4Xqcn//XObfe/6xnTQxerQBaqAqfY=  
+sha512: u7pw3j8ZcsbnOd8kuK6tMgxoUqPE+sZ3iECMegNcAYGoBXuP1Xnq9vS8lXOPuPHv/glhodzlzUre8UMr7MgShw==  
+::end:om:license:uid:20481763334248139322
