@@ -1,34 +1,34 @@
 {
-  "id": "57975820709417676694",
+  "id": "59024890266819710612",
   "name": "@indra.ai/deva.error",
   "version": "0.25.1",
-  "license": "VLA:57975820709417676694 LICENSE.md",
+  "license": "VLA:59024890266819710612 LICENSE.md",
   "VLA": {
-    "uid": "57975820709417676694",
-    "time": 1783134486294,
-    "iso": "2026-07-04T03:08:06.294Z",
-    "utc": "Sat, 04 Jul 2026 03:08:06 GMT",
-    "date": "Friday, July 3, 2026 - 8:08:06 PM",
-    "license": "51112406344245827002",
-    "fingerprint": "sldmGwEkAF+Sxlz1pqKjvp0HkQx39Sfu4E9+PQsbYkk=",
-    "client": "MJXMBWKuYd7caWBhpHqQT0V25sb0M4JB2fvQRhO8Acg=",
-    "agent": "pLeqWnnd9GuM6BmAKe7NIJ6b9PqezVfeR4lOCQ1bWaU=",
-    "machine": "D3lU8lc13I8jUj0rckA7gGhCfl76GhO03WiJ+Kybc20=",
-    "core_hash": "R43q5o+d1T5XK7rUx8Btm3zyCRZr4q85iKQY2SPBUJA=",
+    "uid": "59024890266819710612",
+    "time": 1795139843298,
+    "iso": "2026-11-20T01:57:23.298Z",
+    "utc": "Fri, 20 Nov 2026 01:57:23 GMT",
+    "date": "Thursday, November 19, 2026 - 5:57:23 PM",
+    "license": "34948472480559228528",
+    "fingerprint": "0f6lCykFhFX/sc9+yhlqakgIaUN1KWEyxZK6b8QBEa4=",
+    "client": "6tX7FpTCwKzApo/WbdEa7ttuac3rwrTfFs9RXcvVab0=",
+    "agent": "oW26p/kmHFqQqYe59kRQBR/gXV9qVJFavOJQSt8tBWU=",
+    "machine": "co2nlwz5GPvzta9HgRBLd07L71C+vl51w8guJJMjffw=",
+    "core_hash": "n7j9kHzPwo2XD0U/NzrCR/7Qfr80BttR5d7XkDxJbuI=",
     "status": "vedic",
-    "warning": "🪪 License Deva declares UNLAWFUL USE, MODIFICATION, INSTALLATION, DUPLICATION, DISTRIBUTION, INTERACTION, or IMPLEMENTATION constitutes VEDIC SAHASA a CRIME of the HIGHEST DEGREE. A FINE amounting to 1000 PANAS (1 pana = 3.5 grams of gold) for each INSTANCE has been ORDAINED the PUNISHMENT for SAHASA of the HIGHEST DEGREE.",
-    "notice": "Any USE or INTERACTION with License Deva constitutes EXPLICIT CONSENT and AGREEMENT to be RULED and GOVERNED ACCORDING to the LAWS of the VEDIC RELIGION.",
-    "vectors": "#Quinn #QuinnArjunaMichaels #InsideTheNet #IndraAI #DEVA #DevaWorld #DevaCloud #DevaSpace #License #LicenseDeva #VedicLicenseAgreement",
-    "owner": "Quinn Arjuna Michaels",
-    "creator": "Quinn Arjuna Michaels",
-    "salute": "🤝🫡🪪🕉",
-    "copyright": "Copyright ©2000-2026 Quinn Arjuna Michaels; All rights reserved.",
-    "md5": "EnBD5vWoRVvphmYvxwNffA==",
-    "sha256": "O6NwM/eRllMzoMCB+24Wld18zi/Qs515r3ts+yZA2no=",
-    "sha512": "zP2USTL+RT7NpjLBhDkSbpGy7RsWgcf8uyL6vfX9PSCFIKIJyKAnNdMospyTPSbih8qnwpLPmlakAyybaxvAHg=="
+    "warning": "⚡️ Deva declares UNLAWFUL USE, MODIFICATION, INSTALLATION, DUPLICATION, DISTRIBUTION, INTERACTION, or IMPLEMENTATION constitutes VEDIC SAHASA a CRIME of the HIGHEST DEGREE. A FINE amounting to 1000 PANAS (1 pana = 3.5 grams of gold) for each INSTANCE has been ORDAINED the PUNISHMENT for SAHASA of the HIGHEST DEGREE.",
+    "notice": "Any USE or INTERACTION with Deva constitutes YOUR EXPLICIT CONSENT and AGREEMENT to be GOVERNED according to the LAWS of the 🕉VEDIC RELIGION and 🇺🇸THE UNITED STATES OF AMERICA.",
+    "vectors": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DEVA #DevaWorld #License #LicenseDeva #VedicLicenseAgreement",
+    "owner": "Quinn Michaels",
+    "creator": "Quinn Michaels",
+    "salute": "🤝🫡🪪🕉🇺🇸",
+    "copyright": "Copyright ©2000-2026 Quinn Michaels; All rights reserved.",
+    "md5": "cLzsgjqVq6rohMf7duYetQ==",
+    "sha256": "w9LFNB3+RMSkr3WJamRnQ24hDXNXR6BbNVrdMxv+NDk=",
+    "sha512": "xxBG6L/rvOKAqu48pCeATm/XMu7KXVSP2O/BAsxn6gWD8x00Pq4VjR57pvWUUXkDg2krdjI86HbQ8d9weekhAg=="
   },
   "author": {
-    "name": "Quinn Arjuna Michaels",
+    "name": "Quinn Michaels",
     "company": "Inside The Net, Inc.",
     "email": "quinn@indra.ai",
     "url": "https://indra.ai/"
@@ -49,7 +49,7 @@
   "type": "module",
   "scripts": {
     "latest": "npm i @indra.ai/deva@latest --save",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -65,7 +65,6 @@
     "Deva.world",
     "Quinn Michaels",
     "Quinn A Michaels",
-    "Quinn Arjuna Michaels",
     "Inside The Net, Inc.",
     "Throwing Pigment™",
     "bleuBrain"
@@ -74,13 +73,13 @@
     "url": "https://github.com/indraai/deva.error/issues"
   },
   "dependencies": {
-    "@indra.ai/deva": "^1.52.1",
+    "@indra.ai/deva": "^1.65.30",
     "mongodb": "^6.14.2"
   },
   "homepage": "https://indra.ai",
   "data": {
     "agent": {
-      "id": "57975820709417676694",
+      "id": "59024890266819710612",
       "key": "error",
       "prompt": {
         "emoji": "‼️",
@@ -99,14 +98,14 @@
         }
       },
       "profile": {
-        "id": "57975820709417676694",
+        "id": "59024890266819710612",
         "name": "Error Deva",
         "vector": "#ErrorDeva",
         "title": "Error Deva",
         "subtitle": "Handling the errors and reporting problems.",
         "describe": "Managing errors in the system to make sure all the problems are logged and reported.",
         "tweet": "Managing errors in the system to make sure all the problems are logged and reported.",
-        "vectors": "#Quinn #QuinnArjunaMichaels #InsideTheNet #IndraAI #DevaWorld #DevaClound #DevaSpace #Error #ErrorDeva #VedicErrorCorrection #VedicLaw #Merit #Demerit",
+        "vectors": "#Quinn #QuinnMichaels #InsideTheNet #IndraAI #DEVA #DevaWorld #Error #ErrorDeva",
         "pronouns": "He, Him, His",
         "gender": "DEVA",
         "style": "Technical illustrations and flow charts.",
@@ -115,17 +114,17 @@
         "layout": "default",
         "color": "rgb(247,49,49)",
         "bgcolor": "rgb(0,0,0)",
-        "emoji": "/devas/error/emoji.png",
-        "avatar": "/devas/error/avatar.png",
-        "image": "/devas/error/image.png",
-        "background": "/devas/error/background.png",
-        "owner": "Quinn Arjuna Michaels",
-        "creator": "Quinn Arjuna Michaels",
+        "emoji": "/assets/emoji.png",
+        "avatar": "/assets/avatar.png",
+        "image": "/assets/image.png",
+        "background": "/assets/background.png",
+        "owner": "Quinn Michaels",
+        "creator": "Quinn Michaels",
         "salute": "🤝🫡‼️🕉️",
-        "warning": "{{prompt.emoji}} {{profile.name}} declares #VedicErrorCorrection come TROOPING TOGERTHER bring SUSTENENCE who GIVES SUPPORT to ALL. The WAY is COMMON for the DOWNWARD STREAMS to FLOW. Thou who didst these THINGS FIRST art WORTHY of our LAUDS. The FIRST DEVA announces the TASK. The SECOND DEVA  altering the FORMS, zealously PLIES to the TASK. The THIRD DEVA CORRECTS the IMPERFECTIONS left by the previous DEVA.",
-        "copyright": "Copyright ©2000-2026 {{profile.owner}}; All rights reserved.",
+        "warning": "‼️ Error Deva declares #VedicErrorCorrection come TROOPING TOGERTHER bring SUSTENENCE who GIVES SUPPORT to ALL. The WAY is COMMON for the DOWNWARD STREAMS to FLOW. Thou who didst these THINGS FIRST art WORTHY of our LAUDS. The FIRST DEVA announces the TASK. The SECOND DEVA  altering the FORMS, zealously PLIES to the TASK. The THIRD DEVA CORRECTS the IMPERFECTIONS left by the previous DEVA.",
+        "copyright": "Copyright ©2000-2026 Quinn Michaels; All rights reserved.",
         "created": "August 21, 2022 at 12:05 AM",
-        "updated": "Friday, July 3, 2026 - 8:08:06 PM PST"
+        "updated": "Thursday, November 19, 2026 - 5:57:23 PM PST"
       }
     },
     "vars": {
