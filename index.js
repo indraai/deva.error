@@ -47,10 +47,10 @@ const ErrorDeva = new Deva({
   devas: {},
   func: {
     /**************
-    func: log_write
+    func: error_write
     params: type, packet
-    describe: this is the log file writer function that handles writing
-    the interactions to json log file.
+    describe: this is the error log writer function that handles writing
+    the errors to the proper database.
     ***************/
     async error_write(type, packet) {
 
