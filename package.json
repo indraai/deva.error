@@ -149,33 +149,8 @@
       "ask": {
         "history": []
       },
-      "reply": {
-        "profile": "deva",
-        "max_tokens": 300,
-        "words": 100,
-        "history": []
-      },
-      "comment": {
-        "profile": "deva",
-        "max_tokens": 300,
-        "words": 100,
-        "history": []
-      },
-      "art": {
-        "history": []
-      },
       "context": {
-        "uid": "generating uid",
-        "status": "getting status",
-        "info": "getting info",
-        "feature": "accessing feature",
-        "issue": "has issues",
-        "help": "Help",
-        "finish": "Finshed",
-        "ask": "Ask",
-        "reply": "Reply",
-        "live": "Livechat",
-        "comment": "Comment"
+        "finish": "🏁 Finished"
       }
     }
   }

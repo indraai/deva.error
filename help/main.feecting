@@ -5,7 +5,7 @@
 // Thursday, November 19, 2026 - 5:57:23 PM PST
 
 ::BEGIN:MAIN
-# {{profil.ename}}
+# {{profile.ename}}
 
 {{profile}}
 

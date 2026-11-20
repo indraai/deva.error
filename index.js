@@ -53,10 +53,11 @@ const ErrorDeva = new Deva({
     the interactions to json log file.
     ***************/
     async error_write(type, packet) {
-      this.prompt('error_write')
-      console.log(packet);
+
       const created = Date.now();
       let result = false;
+      if (!this.modules.client) return result; // no database configured
+      
       try {
         const database = this.modules.client.db(this.vars.database);
         const collection = database.collection(type);
@@ -72,22 +73,31 @@ const ErrorDeva = new Deva({
   onInit(data, resolve) {
     const {personal} = this.license(); // get the license config
     const agent_license = this.info().VLA; // get agent license
+    
+    this.context('license', `VLA:${agent_license.uid}`);
     const license_check = this.license_check(personal, agent_license); // check license
-    // return this.start if license_check passes otherwise stop.
-    return license_check ? this.start(data, resolve) : this.stop(data, resolve);
+    
+    if (license_check?.id) return this.start(data, resolve); // start if license valid
+    this.prompt(license_check); // prompt invalid license check.
+    return this.stop().then(() => resolve(license_check)); // stop then resolve license_check.
   }, 
   onReady(data, resolve) {
-    const {uri,database} = this.error().global.mongo;
+    const {uri,database} = this.error().global?.mongo || {};
     const {VLA} = this.info();
-    this.modules.client = new MongoClient(uri);
+    if (uri) this.modules.client = new MongoClient(uri); // build the client if uri is set
     this.vars.database = database;
     this.prompt(`${this.vars.messages.ready} > VLA:${VLA.uid}`);
     return resolve(data);
   },
+  onStop(data, resolve) {
+    const {client} = this.modules;
+    if (!client) return this.close(data, resolve);
+    return client.close().then(() => this.close(data, resolve)); // close the database before shutdown
+  },
   onError(err, data, reject) {
     this.prompt(this.vars.messages.error);
     console.log(err);
-    return reject(err);
+    return reject ? reject(err) : Promise.reject(err);
   },
 });
 export default ErrorDeva
