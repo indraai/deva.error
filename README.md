@@ -17,9 +17,9 @@ const error = require('@indra.ai/deva.error');
 
 ## Requirements
 
-- Node.js with npm. Error Deva's `package.json` sets no `engines`. Deva Core 1.67.1 declares `"node": ">=22"` and `"npm": ">=9.5.1"` in its own `package.json`.
+- Node.js with npm. Error Deva's `package.json` sets no `engines`. Deva Core 1.67.8 declares `"node": ">=22"` and `"npm": ">=9.5.1"` in its own `package.json`.
 - A project with `"type": "module"` in its `package.json`. Error Deva is an ES module.
-- `@indra.ai/deva` `^1.67.1` (Deva Core) and `mongodb` `^6.14.2`. Both install with Error Deva.
+- `@indra.ai/deva` `^1.67.8` (Deva Core) and `mongodb` `^6.14.2`. Both install with Error Deva.
 - A MongoDB server if you want errors saved. A local `mongod` at `mongodb://127.0.0.1:27017` is enough.
 
 ## Two licenses
@@ -27,7 +27,7 @@ const error = require('@indra.ai/deva.error');
 A running Deva carries two separate licenses, and each is checked on its own.
 
 - **The core license** comes through the client data as `client.VLA`. Deva Core checks it against the core package's VLA at the start of `init`.
-- **The agent license** comes through the license feature data as `features.license.devas.error`. Deva Core 1.67.1 checks it against the VLA in Error Deva's own `package.json` right after the features load and before `onInit`. Error Deva has no `onInit` of its own, so it has no license check of its own to change or remove.
+- **The agent license** comes through the license feature data as `features.license.devas.error`. Deva Core 1.67.8 checks it against the VLA in Error Deva's own `package.json` right after the features load and before `onInit`. Error Deva has no `onInit` of its own, so it has no license check of its own to change or remove.
 
 The agent check compares the sha256 of the whole VLA object, so every field has to match exactly.
 
