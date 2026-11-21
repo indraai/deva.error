@@ -159,7 +159,7 @@ test('error stops through the full chain', async () => {
 	assert.equal(data.value, 'error');
 });
 
-// stop() is final, so the refusal check loads a fresh Error Deva instance from the same file.
+// the refusal check loads a fresh Error Deva instance from the same file, so it starts from a clean state.
 test('error refuses to start with a bad agent VLA', async () => {
 	const {default: REFUSE} = await import('./index.js?refuse');
 	const prompts = [];

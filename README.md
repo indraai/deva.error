@@ -96,7 +96,7 @@ If the agent license check fails, Deva Core prompts the message, stops the Deva,
 | `❌ Bad Personal VLA` | `features.license.devas` is there but has no `error` entry. |
 | `❌ Invalid VLA Check` | The `error` entry doesn't match this package's VLA, or the license feature has no `devas`. |
 
-A stopped Deva stays stopped. To try again, start a new process.
+A stopped Deva can start again. Call `init()` again with a client whose license data passes the check. Error Deva registers its listener again and builds a new MongoDB client in `onReady`.
 
 ## What it writes
 
